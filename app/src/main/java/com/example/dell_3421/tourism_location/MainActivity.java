@@ -3,13 +3,13 @@ package com.example.dell_3421.tourism_location;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout sliderDotspanel;
     private int dotscount;
     private ImageView[] dots;
-
+    private EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,39 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("Main");
         getSupportActionBar().hide();
+        editText  = (EditText) findViewById(R.id.find_all);
+        // Set up the ViewPager with the sections adapter.
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
+        Menu menu = bottomNavigationView.getMenu();
+        MenuItem menuItem = menu.getItem(0);
+        menuItem.setChecked(true);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.navigation_home:
+
+                        break;
+
+                    case R.id.navigation_location:
+                        Intent intent1 = new Intent(MainActivity.this, Check_location_Activity.class);
+                        startActivity(intent1);
+                        finish();
+                        break;
+
+                    case R.id.navigation_profile:
+                        Intent intent2 = new Intent(MainActivity.this, Profile_Activity.class);
+                        startActivity(intent2);
+                        finish();
+                        break;
+                }
+
+                return false;
+            }
+        });
+
 
         //  slider image
 
@@ -82,37 +115,6 @@ public class MainActivity extends AppCompatActivity {
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new MyTimeTask(), 2000, 4000);
 
-        // Set up the ViewPager with the sections adapter.
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
-        BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
-        Menu menu = bottomNavigationView.getMenu();
-        MenuItem menuItem = menu.getItem(0);
-        menuItem.setChecked(true);
-
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()){
-                    case R.id.navigation_home:
-
-                        break;
-
-                    case R.id.navigation_location:
-                        Intent intent1 = new Intent(MainActivity.this, Check_location_Activity.class);
-                        startActivity(intent1);
-                        finish();
-                        break;
-
-                    case R.id.navigation_profile:
-                        Intent intent2 = new Intent(MainActivity.this, Profile_Activity.class);
-                        startActivity(intent2);
-                        finish();
-                        break;
-                }
-
-                return false;
-            }
-        });
 
     }
     public class MyTimeTask  extends TimerTask {

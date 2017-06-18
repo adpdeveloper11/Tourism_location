@@ -27,7 +27,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/autoComplete_Location"
+                    android:id="@+id/find_all"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#CCC"
