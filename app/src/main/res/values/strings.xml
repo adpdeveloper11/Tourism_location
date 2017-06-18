@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tourism_location</string>
+    <string name="app_name">ChangRai</string>
     <string name="button_singin">SignIn</string>
     <string name="button_singup">SignUp</string>
     <string name="button_create_user">CREATE ACCOUNT</string>
