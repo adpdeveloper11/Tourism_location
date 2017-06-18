@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Tourism_location</string>
-    <string name="button_singin">SignIn Email</string>
+    <string name="button_singin">SignIn</string>
+    <string name="button_singup">SignUp</string>
     <string name="button_create_user">CREATE ACCOUNT</string>
     <string name="button_singin_google">SIGN IN Whith Google</string>
     <string name="button_singin_facebook">SIGN IN Facebook</string>

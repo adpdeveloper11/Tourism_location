@@ -21,7 +21,6 @@ public class Check_location_Activity extends AppCompatActivity {
         setContentView(R.layout.layout_check_location);
         getSupportActionBar().hide();
 
-        setTitle("Check location");
         // Set up the ViewPager with the sections adapter.
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
