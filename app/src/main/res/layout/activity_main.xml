@@ -21,6 +21,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:background="#FFFFFF"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -108,6 +109,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        app:itemTextColor="#FFF"
         android:background="?android:attr/windowBackground"
         android:backgroundTint="@color/background_bottomenu"
         app:menu="@menu/navigation" />
