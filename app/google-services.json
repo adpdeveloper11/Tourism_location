@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "320474290492",
+    "firebase_url": "https://tourismlocation-99b9b.firebaseio.com",
+    "project_id": "tourismlocation-99b9b",
+    "storage_bucket": "tourismlocation-99b9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320474290492:android:07d024480e6bb28d",
+        "android_client_info": {
+          "package_name": "com.example.dell_3421.tourism_location"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320474290492-2aru1oqouocbe2i0kj7gfjedc4ngsl1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAylzpF3eE7BnZQHE_xEzxRm-OVOl8FP1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

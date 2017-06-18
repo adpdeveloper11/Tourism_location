@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "438271678234",
+    "firebase_url": "https://locationchangrai.firebaseio.com",
+    "project_id": "locationchangrai",
+    "storage_bucket": "locationchangrai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438271678234:android:07d024480e6bb28d",
+        "android_client_info": {
+          "package_name": "com.example.dell_3421.tourism_location"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438271678234-80hd2a377qc521qurtbd144ege2q9bh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell_3421.tourism_location",
+            "certificate_hash": "ce86b5048005638ef1e3728862f7ae09d208962e"
+          }
+        },
+        {
+          "client_id": "438271678234-qmnfs9a52ti3s4tl4hom60ij2948kqtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcfpXr2w3esFkhoar017bzZzaPpyQ9P8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438271678234-qmnfs9a52ti3s4tl4hom60ij2948kqtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

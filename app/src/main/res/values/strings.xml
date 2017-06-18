@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tourism_location</string>
+    <string name="button_singin">SignIn Email</string>
+    <string name="button_create_user">CREATE ACCOUNT</string>
+    <string name="button_singin_google">SIGN IN Whith Google</string>
+    <string name="button_singin_facebook">SIGN IN Facebook</string>
+    <string name="txt_history">ประวัติเชียงราย</string>
+    <string name="loading">Loading</string>
+    <string name="signed_in_fmt">Tag</string>
+    <string name="facebook_app_id">229018494253398</string>
+    <string name="fb_login_protocol_scheme">fb229018494253398</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">หน้าหลัก</string>
+    <string name="title_location">สถานที่</string>
+    <string name="title_notifications">โปรไฟล์</string>
+    <string name="contentChangrai">
+         เชียงราย ดินแดนแห่งขุนเขา เป็นจังหวัดที่อยู่เหนือสุดของประเทศไทย เป็นเมืองเก่าแก่ที่มีประวัติศาสตร์ยาวนานตั้งแต่สมัยเชียงแสนของพญามังราย
+        ผู้ก่อตั้งเมืองเชียงรายบนพื้นที่ราบลุ่มแม่น้ำกก อุดมสมบูรณ์ไปด้วยป่าไม้บนดอยสูงที่สลับซับซ้อนเป็นแหล่งกำเนิดต้นน้ำและน้ำตกอันงดงามหลายแห่ง
+        และมีเทือกเขาผีปันน้ำที่เป็นพรมแดนกั้นประเทศสหภาพพม่าจนถึงด้านทิศเหนือ อีกทั้งเป็นจุดแรกที่แม่น้ำโขงไหลผ่านประเทศไทย เป็นพรมแดนกั้น
+        กลางระหว่างประเทศไทยกับประเทศสาธารณรัฐประชาธิปไตยประชาชนลาวเชียงรายมีประชากรหลายเชื้อชาติ ทั้งชาวไทยพื้นราบชาวไทยภูเขา และชาว
+        จีนฮ่อที่อพยพเข้ามาอาศัยอยู่บนดอยสูง แต่ละชนชาติจะมีประเพณี วัฒนธรรม และวิถีชีวิตที่มีเอกลักษณ์ เป็นเสน่ห์อีกอย่างที่ทำให้เชียงรายได้รับ
+        ความสนใจจากนักท่องเที่ยวทั้งชาวไทยและชาวต่างประเทศทิศเหนือ ติดต่อกับสหภาพพม่า ทิศใต้ ติดต่อกับจังหวัดพะเยา ทิศตะวันออก ติดต่อกับ
+        สาธารณรัฐประชาธิปไตยประชาชนลาว ทิศตะวันตก ติดต่อกับจังหวัดเชียงใหม่ ทิปส์ท่องเที่ยว
+    </string>
+
+    <!--host tab-->
+    <string name="edit_firstname">ชื่อ</string>
+    <string name="edit_lastname">นามสกุล</string>
+    <string name="edit_id">บัตรประชาชน</string>
+    <string name="edit_address">ที่อยู่</string>
+    <string name="edit_email">อีเมล</string>
+</resources>
