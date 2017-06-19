@@ -129,10 +129,6 @@ public class MainActivity extends AppCompatActivity {
                         viewPager.setCurrentItem(2);
                     }else if(viewPager.getCurrentItem() == 2){
                         viewPager.setCurrentItem(3);
-                    }else if(viewPager.getCurrentItem() == 3){
-                        viewPager.setCurrentItem(4);
-                    }else if(viewPager.getCurrentItem() == 4){
-                        viewPager.setCurrentItem(5);
                     }else{
                         viewPager.setCurrentItem(0);
                     }

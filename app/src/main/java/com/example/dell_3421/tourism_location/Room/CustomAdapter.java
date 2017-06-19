@@ -47,7 +47,6 @@ public class CustomAdapter extends BaseAdapter {
 
         ImageView imageView = (ImageView) view.findViewById(R.id.image_room1);
         imageView.setBackgroundResource(resId[position]);
-
         return view;
     }
 }
