@@ -30,4 +30,11 @@
     <string name="edit_id">บัตรประชาชน</string>
     <string name="edit_address">ที่อยู่</string>
     <string name="edit_email">อีเมล</string>
+    <!--host tab-->
+
+
+
+    <!--ห้อง-->
+    <string name="find_room">ค้นหาที่พัก</string>
+    <!--ห้อง -->
 </resources>
